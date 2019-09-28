@@ -3,6 +3,7 @@ body{
 }
 
 
+/*===============banner start=====================*/
 .banner{
 	width: 100%;
 	height: 400px;
@@ -23,8 +24,9 @@ body{
 	font-size: 28px;
 	font-weight: bold;
 }
+/*===============banner end=====================*/
 
-
+/*===============time start=====================*/
 .time{
 	width: 100%;
 	height: 350px;
@@ -44,12 +46,15 @@ body{
 .time_text p{
 	font-size: 24px;
 	text-align: center;
+	line-height: 1.6;
+	padding-top: 20px;
 }
+/*===============time end=====================*/
 
-
+/*===============question start=====================*/
 .question{
 	width: 100%;
-	height: 650px;
+	height: 600px;
 	background-color: #E5E5E5;
 }
 
@@ -97,43 +102,196 @@ body{
 }
 
 
-
-
-.teacher{
-	width: 100%;
-	height: 590px;
+.que .que_bottom{
+	width: 280px;
+	height: 250px;
 	background-color: #A3C7C5;
 }
+/*===============question end=====================*/
 
+/*===============teacher start=====================*/
+.teacher{
+	width: 100%;
+	height: 530px;
+	background-color: #A3C7C5;
+	clear: both;
+}
+
+.teacher .th_pic{
+	width: 350px;
+	height: 350px;
+	border-radius:350px;
+	background-color: #ffffff;
+	border: 8px #0097A7 solid;
+}
+
+
+.teacher .th_name{
+	font-size: 32px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.teacher .th_text{
+	font-size: 28px;
+	color: #000000;
+	line-height: 1.6;
+}
+/*===============teacher end=====================*/
+
+/*===============slogan start=====================*/
 .slogan{
 	width: 100%;
 	height: 100px;
 	background-color: #0097A7;
 }
 
+.slogan h2{
+	font-size: 32px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 30px;
+	font-weight: bold;
+}
+/*===============slogan end=====================*/
+
+/*===============content start=====================*/
 .content{
 	width: 100%;
 	height: 830px;
 	background-color: rgba(229,229,229,0.8);
 }
 
-.target{
+.content h2{
+	font-size: 32px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.content .content_text{
+	font-size: 24px;
+	color: #000000;
+	line-height: 1.6;
+}
+
+.content .con{
+	width: 400px;
+	height: 540px;
+	float: left;
+	background-color: #ff0022;
+}
+
+.con .con_bg_top{
 	width: 100%;
-	height: 490px;
+	height: 50px;
+	background-color: #0097A7;
+}
+.con_bg_top .con_text_top{
+	font-size: 24px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.con .con_bg_mid{
+	width: 100%;
+	height: 210px;
+	background-color: #ffffff;
+}
+
+.con .con_bg_bottom{
+	width: 100%;
+	height: 280px;
 	background-color: #A3C7C5;
 }
 
-.learn{
+.con_bg_bottom .con_text_bottom{
+	font-size: 24px;
+	color: #000000;
+	line-height: 1.6;
+	padding-top: 10px;
+}
+/*===============content end=====================*/
+
+/*===============target start=====================*/
+.target{
 	width: 100%;
-	height: 490px;
-	background-color: rgba(229,229,229,0.8);
+	height: 440px;
+	background-color: #A3C7C5;
+	clear: both;
 }
 
+
+.target h2{
+	font-size: 32px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.target .target_pic{
+	width: 400px;
+	height: 250px;
+	background-color: #ffffff;
+	float: left;
+}
+
+.target .target_text{
+	width: 400px;
+	height: 265px;
+	background-color: #663300;
+	float: left;
+}
+
+.target_text .itm{
+	font-size: 26px;
+	color: #000000;
+	font-weight: bold;
+	line-height: 1.6;
+}
+
+.target_text .itm_text{
+	font-size: 22px;
+	color: #000000;
+	line-height: 1.6;
+}
+/*===============target end=====================*/
+
+/*===============learn start=====================*/
+.learn{
+	width: 100%;
+	height: 460px;
+	background-color: rgba(229,229,229,0.8);
+	clear: both;
+}
+
+.learn .learn_text{
+	width: 410px;
+	height: 300px;
+	background-color: #5566ff;
+	float: left;
+}
+
+.learn_text p{
+	font-size: 24px;
+	color: #000000;
+	line-height: 1.6;
+}
+
+.learn .learn_pic{
+	width: 400px;
+	height: 280px;
+	background-color: #ffffff;
+	float: left;
+}
+/*===============learn end=====================*/
+
+/*===============footer start=====================*/
 .footer{
 	width: 100%;
 	height: 790px;
 	background-color: #0097A7;
 	position: relative;
+	clear: both;
 }
 
 .footer_box{
@@ -144,3 +302,10 @@ body{
 	right: 10%;
 	background-color: #A3C7C5;
 }
+
+.footer_box h2{
+	font-size: 28px;
+	font-weight: bold;
+	color: #000000;
+}
+/*===============footer end=====================*/
