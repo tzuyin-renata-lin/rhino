@@ -1,0 +1,146 @@
+body{
+	font-family:Microsoft JhengHei,Arial; 
+}
+
+
+.banner{
+	width: 100%;
+	height: 400px;
+	background-color: #0097A7;
+}
+
+.banner .main_sub{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.banner h1{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.banner p{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+
+.time{
+	width: 100%;
+	height: 350px;
+	background-color: rgba(163,199,197,0.8);
+	position: relative;
+}
+
+.time_text{
+	height: 200px;
+	position: absolute;
+	top:100px;
+	left: 15%;
+	right: 15%;
+	background-color: rgba(229,229,229,0.7);
+}
+
+.time_text p{
+	font-size: 24px;
+	text-align: center;
+}
+
+
+.question{
+	width: 100%;
+	height: 650px;
+	background-color: #E5E5E5;
+}
+
+.question_box{
+	height: 525px;
+	background-color: #ffffff;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.question_box h2{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.que_box{
+	background-color: #336600;
+	width: 100%;
+	height: 450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.que_box .que{
+	background-color: #336699;
+	width: 280px;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	padding-top: 10px;
+	float: left;
+}
+
+.que .que_top{
+	width: 100%;
+	height: 50px;
+	background-color: #0097A7;
+}
+
+.que .que_top p{
+	font-size: 28px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	padding-top:10px; 
+}
+
+
+
+
+.teacher{
+	width: 100%;
+	height: 590px;
+	background-color: #A3C7C5;
+}
+
+.slogan{
+	width: 100%;
+	height: 100px;
+	background-color: #0097A7;
+}
+
+.content{
+	width: 100%;
+	height: 830px;
+	background-color: rgba(229,229,229,0.8);
+}
+
+.target{
+	width: 100%;
+	height: 490px;
+	background-color: #A3C7C5;
+}
+
+.learn{
+	width: 100%;
+	height: 490px;
+	background-color: rgba(229,229,229,0.8);
+}
+
+.footer{
+	width: 100%;
+	height: 790px;
+	background-color: #0097A7;
+	position: relative;
+}
+
+.footer_box{
+	height: 690px;
+	position: absolute;
+	top:50px;
+	left: 10%;
+	right: 10%;
+	background-color: #A3C7C5;
+}
