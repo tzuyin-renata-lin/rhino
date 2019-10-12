@@ -1,0 +1,353 @@
+*{
+    box-sizing:border-box;
+    font-family: "Microsoft JhengHei";
+}
+
+html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,img,div,span{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    font-size:20px;
+    line-height: 1.8;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+
+#banner{
+    height: 700px;
+    background-color: #0097A7;
+    background-image: url('../img/rhino banner-20190930.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+}
+
+#babg-squ{
+    background-image: url('../img/rhino banner-squ-1-20190930.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 30px;
+}
+
+
+#banner .main_sub{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#banner h1,#banner p{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+#time{
+    width: 100%;
+    margin: 0;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+ }
+ #time img{
+    padding-top: 25px; 
+    width: 50px;
+ }
+ .box1{
+    background:  rgba(163, 199, 197, 0.8);
+    height: 350px;
+ }
+
+ .time_text{
+     margin: 10px;
+     padding: 20px;
+     background-color: rgba(229,229,229,0.7);
+ }
+
+ .time_text li{
+    font-size: 24px;
+    line-height: 1.8;
+ }
+
+#question{
+    padding-top: 10px;
+    background-color: #E5E5E5;
+    height: 510px;
+}
+
+#question h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#question .col-4 h4{
+    background-color: #0097A7;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#question .col-4 h5{
+    background-color: rgba(163, 199, 197, 0.8);
+    text-align: center;
+    padding: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#question .col-4 p{
+    background-color: rgba(163, 199, 197, 0.8);
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    text-align:justify; 
+}
+
+#question .col-4 img{
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#teacher{
+    background-color:#a3c7c5;
+    height: 430px;
+    padding-top: 30px;
+}
+
+#teacher .th_pic img{
+	width: 250px;
+	height: 250px;
+	border-radius:250px;
+	background-color: #ffffff;
+	border: 8px #0097A7 solid;
+}
+
+#teacher h4{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#teacher p{
+    padding-top: 20px;
+    font-size: 28px;
+    text-align: left;
+    text-align:justify;
+}
+
+#slogan{
+    background-color: #0097A7;
+    height: 100px;
+    padding-top: 15px;
+}
+#slogan h4{
+    text-align: center;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+#article{
+   width: 100%;
+   margin: 0;
+   height: 830px;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+}
+
+#article .col-10 h3{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#article .col-10 p{
+    padding-top: 15px;
+    font-size: 24px;
+    text-align: left;
+    text-align:justify;
+}
+
+#article .col-6 h4{
+    background-color: #0097A7;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+#article .col-6 p{
+    background-color: rgba(163, 199, 197, 0.8);
+    text-align: center;
+    font-size: 24px;
+    text-align:justify;
+}
+.img-car{
+    width: 100%;   
+    background-image: url('../img/IT360-Rhino product/15607766-car-design-wire-model-my-own-design.jpg');
+}
+.box2{
+    background: rgba(229,229,229,0.8);
+    height: 830px;
+}
+
+#target{
+    background-color: #a3c7c5;
+    height: 440px;
+    padding-top: 10px;
+}
+
+#target h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#target img{
+    padding-top:20px;
+    width: 400px;
+    height: 250px;
+}
+
+#target .col-6 .itm{
+    padding-top: 30px;
+	font-size: 26px;
+	color: #000000;
+	font-weight: bold;
+	line-height: 1.7;
+    text-align: left;
+}
+
+#target .itm_text {
+    font-size: 20px;
+	color: #000000;
+	line-height: 1.7;
+    text-align: left;
+    margin-left: 2em;
+    font-weight: normal;
+}
+
+#learn{
+   width: 100%;
+   margin: 0;
+   height: 460px;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+}
+
+.learn_text li{
+    font-size: 24px;
+    line-height: 1.7;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.box3{
+    background: rgba(229,229,229,0.8);
+    height: 460px;
+}
+#learn .col-6{
+    padding-top: 50px;
+}
+
+#learn img{
+    width: 400px;
+    height: 250px;
+}
+
+#contact{
+    height: 680px;
+    background-color: #0097A7;
+}
+
+#footer_box{
+    background-color: #A3C7C5;
+    height: 580px;
+}
+
+#footer_box h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#footer_box .us{
+    width: 450px;
+    height: 50px;
+    background-color: #E5E5E5;
+    border: 3px #0097A7 solid;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.7;
+    padding-left: 10px;
+}
+
+#footer_box .us_adr{
+    width: 220px;
+    height: 50px;
+    background-color: #E5E5E5;
+    border: 3px #0097A7 solid;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.7;
+    padding-left: 10px;
+}
+
+#footer_box .us_qt{
+    width: 450px;
+    height: 150px;
+    resize: none;
+    background-color: #E5E5E5;
+    border: 3px #0097A7 solid;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.7;
+    padding-left: 10px;
+}
+
+.box4{
+    width: 450px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.box4 .check_box{
+    width: 20px;
+    height: 20px;
+}
+
+.ptm .btn_sub{
+    width: 150px;
+    height: 35px;
+    background-color: #0097A7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
